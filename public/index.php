@@ -1,5 +1,5 @@
 <?php
-
+ 
 // déclaration de la constante d'environnement
 defined('APPLICATION_ENV') ||
 	define('APPLICATION_ENV', getenv('APPLICATION_ENV') ? getenv('APPLICATION_ENV') : 'production');
