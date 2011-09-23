@@ -1,6 +1,6 @@
 <?php
  
-// déclaration de la constante d'environnement
+// déclaration de la constante d'environnement eee
 defined('APPLICATION_ENV') ||
 	define('APPLICATION_ENV', getenv('APPLICATION_ENV') ? getenv('APPLICATION_ENV') : 'production');
 defined('ROOT_PATH') || 
